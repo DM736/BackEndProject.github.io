@@ -1,0 +1,24 @@
+body{
+    background-color: #ff9d2e;
+}
+.tarjeta-area{
+    display: flex;
+    justify-content: center;
+}
+
+.resul-area1{
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 320px;
+    height: 150px;
+    margin: 10rem 0; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+.text-input{
+    padding: .5rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+}

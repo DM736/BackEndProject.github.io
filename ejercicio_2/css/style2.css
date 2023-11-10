@@ -1,0 +1,81 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+body{
+    background-color: #249de2;
+    font-family: 'Montserrat', sans-serif;
+}
+.form_area{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 0 0 ;
+}
+.text-principal{
+    text-align: center;
+    padding: 1rem 0 0;
+}
+.tarjeta{
+    width: 400px;
+    height: 230px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+
+.opcion{
+    padding: 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.botton-1{
+    padding: 1rem 1rem;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f13b3bbb;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+}
+.botton-operador{
+    border-style: none;
+    border-bottom: 1px solid #08080870;
+    outline:none;
+}
+.botton{
+    padding: 1rem 1rem;
+}
+.edad-text{
+    padding: .2rem 0;
+}
+.edad-area{
+    margin: 2rem 0 1rem 0;
+}
+.edad{
+    border-style: none;
+    border-bottom: 1px solid #08080870;
+    outline:none;
+    width: 10rem;
+}
+.resul-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+.resul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.205);
+}

@@ -1,0 +1,35 @@
+.header-t{
+    width: 200px;
+    padding: 1rem 0 1rem 10px;
+    background-color: #1f08a0;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.indice-t{
+    width: 30px;
+    padding: 1rem 10px 1rem 10px;
+    background-color: #1f08a0;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.indice{
+    width: 41px;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffffff;
+    border-radius: 5px ;
+    border-bottom: 1px solid #126cf383;
+}
+.dtable{
+    width: 200px;
+    padding: 5px 0 5px 10px;
+    background-color: #ffffff;
+    border-radius: 5px ;
+    border-bottom: 1px solid #126cf383;
+}
+.header-area{
+    display: flex;
+    justify-content: space-around;
+}
+

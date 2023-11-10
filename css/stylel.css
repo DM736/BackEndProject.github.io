@@ -1,0 +1,77 @@
+[class^="ejerci"]{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 10rem;
+    height: 10rem;
+    margin: .8rem;
+}
+.panel{
+    display: grid;
+    grid-template-areas: 
+    'ej1 ej2 ej3 '
+    'ej4 ej5 ej6'
+    'ej7 .  .  ';
+}
+.titleb{
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    font-weight: 700;
+}
+#container{
+    padding: 10rem;
+}
+.descript{
+    font-family: 'Roboto', sans-serif;
+}
+.ejerci1{grid-area: ej1;}
+.ejerci1:hover{
+    background-color: #eb3131;
+    color:#ffffff;
+    border: #b42626;
+    box-shadow: 0 0 12px rgba(247, 27, 27, 0.8);
+}
+.ejerci2{grid-area: ej2;}
+.ejerci2:hover{
+    background-color: #ebc931;
+    color:#ffffff;
+    border: #b49f26;
+    box-shadow: 0 0 12px rgba(247, 232, 27, 0.8);
+}
+.ejerci3{grid-area: ej3;}
+.ejerci3:hover{
+    background-color: #3134eb;
+    color:#ffffff;
+    border: #2628b4;
+    box-shadow: 0 0 12px rgba(60, 27, 247, 0.8);
+}
+.ejerci4{grid-area: ej4;}
+.ejerci4:hover{
+    background-color: #41eb31;
+    color:#ffffff;
+    border: #4eb426;
+    box-shadow: 0 0 12px rgba(34, 247, 27, 0.8);
+}
+.ejerci5{grid-area: ej5;}
+.ejerci5:hover{
+    background-color: #a1a1a1;
+    color:#ffffff;
+    border: #818181;
+    box-shadow: 0 0 12px rgba(175, 175, 175, 0.8);
+}
+.ejerci6{grid-area: ej6;}
+.ejerci6:hover{
+    background-color: #eb9b31;
+    color:#ffffff;
+    border: #b47b26;
+    box-shadow: 0 0 12px rgba(247, 207, 27, 0.8);
+}
+.ejerci7{grid-area: ej7;}
+.ejerci7:hover{
+    background-color: #31d5eb;
+    color:#ffffff;
+    border: #26b4ad;
+    box-shadow: 0 0 12px rgba(27, 247, 247, 0.8);
+}

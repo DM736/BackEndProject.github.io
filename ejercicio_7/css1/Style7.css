@@ -1,0 +1,215 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+}
+.text{
+    margin: .5rem 0;
+}
+body{
+    background-color: #126cf3b9;
+    font-family: 'Montserrat', sans-serif;
+}
+.form_area{
+    display: flex;
+    margin: 5rem 0 0 0 ;
+    background-color: #f8f8f8;
+    width: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+}
+.form_area2{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+.form-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.text-principal{
+    text-align: center;
+    padding: 1rem 1rem 1rem;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.tarjeta2{
+    display: flex;
+    justify-content: center;
+}
+.botton-1{
+    padding: 1rem 1rem;
+    margin: 0 1.5rem;
+    width: 8rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1a23b;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+}
+.botton-2{
+    padding: 1rem 1rem;
+    width: 8rem;
+    margin: 0 1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f15f3b;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+}
+.botton-3{
+    padding: 1rem 1rem;
+    width: 8rem;
+    margin: 0 1.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #65f13b;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.205);
+}
+.bottons{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff00;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.bottons:hover{
+    background-color: #fafafa;
+}
+.botton{
+    padding: 1rem 1rem;
+    display: flex;
+}
+.form-option{
+    margin: 1rem 0 .5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-f{
+    border-style: none;
+    border-bottom: 1px solid #08080870;
+    outline:none;
+    width: 15rem;
+    padding: .2rem 0;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 3px 3px 15px ;
+    border-radius: 20px;
+
+}
+.resul-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+.resul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 3rem;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.205);
+}
+.ok{
+    font-family: 'Montserrat', sans-serif;
+    width: 300px;
+    padding: 1.5rem 1.5rem;
+    margin: 5rem 0;
+    background-color: #6bdf0d;
+    border-radius: 16px;
+}
+.ok-area{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    color: #ffffff;
+}
+.bad{
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    padding: 1.5rem 1.5rem;
+    margin: 5rem 0;
+    background-color: #df0d0d;
+    border-radius: 16px;
+}
+.bad-area{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    color: #ffffff;
+}
+.bad-area-incom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    color: #ffffff;
+}
+.navegacion-area{
+    display: flex;
+    justify-content: right;
+    margin: 5rem 0;
+}
+.navegacion{
+    font-size: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #08080870;
+    padding: .6rem;
+    display: flex;
+    width: 18rem;
+    border-radius: 30px;
+    margin: 0 1rem;
+    justify-content: center;
+
+}
+.object{
+    opacity: 60%;
+}
+.input-nav{
+    border-style: none;
+    border-bottom: 1px solid #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    outline:none;
+    font-size: 15px;
+    width: 15rem;
+    padding: .2rem 0;
+    background: #ffffff;
+}
+.input-f{
+    border-style: none;
+    outline:none;
+    font-size: 15px;
+    padding: 3px 3px 3px 6px ;
+}
+.lupa{
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    opacity: 60%;
+}
